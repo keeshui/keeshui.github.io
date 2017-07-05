@@ -5,7 +5,8 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/firefox-icon.png') {
+//    if(mySrc === 'images/firefox-icon.png') {
+   if(mySrc === 'images/varia2.JPG') {
       myImage.setAttribute ('src','images/publi.png');
     } else {
 //      myImage.setAttribute ('src','images/firefox-icon.png');
