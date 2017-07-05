@@ -8,7 +8,8 @@ myImage.onclick = function() {
     if(mySrc === 'images/firefox-icon.png') {
       myImage.setAttribute ('src','images/publi.png');
     } else {
-      myImage.setAttribute ('src','images/firefox-icon.png');
+//      myImage.setAttribute ('src','images/firefox-icon.png');
+      myImage.setAttribute ('src','images/varia2.JPG');
     }
 }
 var myButton = document.querySelector('button');
