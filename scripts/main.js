@@ -27,7 +27,7 @@ var myButton = document.querySelector('button');
 function setUserName() {
   var myName = prompt('Please enter your name.');
   localStorage.setItem('name', myName);
-  myHeading.textContent = 'Hello ' + myName  +' !, kh  +' + aL + ' Paints' // be persanal if possible
+  myHeading.textContent = 'Hello ' + myName  + ' !, kh  +' + aL + ' Paints' // be persanal if possible
 }
 function cl(a ){ console.log(a); }
 // =============
