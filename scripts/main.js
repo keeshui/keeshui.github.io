@@ -34,7 +34,7 @@ function cl(a ){ console.log(a); }
 cl(aL + ' prents, kh');  //nb
 
 if(!localStorage.getItem('name')) {
-  setUserName();
+//  setUserName();  // do not disturb 1st visits of the page, where there s a button to give a name, kh
 } else {
   var storedName = localStorage.getItem('name');
   myHeading.textContent = myHeading.textContent  + storedName;
